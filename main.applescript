@@ -23,9 +23,9 @@ repeat with i from 1 to count fName
 	end if
 end repeat
 
-on checkContactExist(currenetFName, currentLName, currentPNum)
+on checkContactExist(currentFName, currentLName, currentPNum)
 	tell application "Contacts"
-		return (exists (1st person whose first name is currenetFName and last name is currentLName and value of phones contains currentPNum))
+		return (exists (1st person whose first name is currentFName and last name is currentLName and value of phones contains currentPNum))
 	end tell
 end checkContactExist
 
