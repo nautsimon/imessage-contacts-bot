@@ -1,6 +1,7 @@
 set {lName, fName, pNum, status, pMessage} to getData()
 
 repeat with i from 1 to count fName
+	log item i of fName & " " & item i of lName
 	delay 5
 	if (item i of status = "NONE") then
 		if (checkContactExist(item i of fName, item i of lName, item i of pNum) = false) then
