@@ -14,7 +14,7 @@
 
 - Last Name: put desired last name of contact
 - First Name: put desired first name of contact
-- Phone Nume: put desired phone number of contact
+- Phone Num: put desired phone number of contact
 - Contact type: this column must be here BUT it can be empty
 - Status: Has a message already been sent? if the content in the column is anything besides NONE, a message will NOT be sent to this number
 - Response: this column must be here BUT it can be empty
