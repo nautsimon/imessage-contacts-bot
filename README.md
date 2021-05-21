@@ -5,7 +5,7 @@
 <br/>**Result:** bot will add every person to your contact book (only if they do not exist already) and send desired message (as specified in excel file) to that person.
 
 
-###Input Excel File
+### Input Excel File
 ... it should look like this
 
 | Last Name   | First Name  | Phone Num   | Contact type| Status      | Response    | Message     | 
@@ -20,7 +20,7 @@
 - Response: this column must be here BUT it can be empty
 - Message: The message that will be sent to the phone number
 
-###To Run
+### To Run
 *of course this only runs on macos*
 <br/>
 1. download script
